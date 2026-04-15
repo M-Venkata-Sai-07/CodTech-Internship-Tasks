@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Title */
+h1 {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: white !important;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+/* Dropdown Labels */
+label {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 14px;
+}
+
+/* KPI Cards */
+.kpi-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.kpi-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Charts */
+.js-plotly-plot {
+    border-radius: 10px;
+    background: white;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.08);
+    padding: 10px;
+    margin: 5px;
+}
+
+/* Dropdown */
+.Select-control {
+    border-radius: 8px !important;
+    border: 1px solid #3498db !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #3498db;
+    border-radius: 4px;
+}

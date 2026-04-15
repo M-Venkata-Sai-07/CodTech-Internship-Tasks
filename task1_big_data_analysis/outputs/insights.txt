@@ -1,0 +1,32 @@
+BIG DATA ANALYSIS INSIGHTS
+========================================
+
+Total Rows: 50000
+
+Passenger Distribution:
+passenger_count
+1    33539
+2     8638
+5     2737
+3     2381
+6     1519
+4     1186
+Name: count, dtype: int64
+
+Average Trip Distance: 2.93 miles
+
+High Fare Trips (>50): 889
+
+Payment Type Distribution:
+payment_type
+1    34715
+2    15042
+3      180
+4       63
+Name: count, dtype: int64
+
+Key Insights:
+- Most trips have low passenger counts (1–2 people)
+- Average trip distance is relatively short
+- High fare trips are less frequent
+- Certain payment types dominate usage
